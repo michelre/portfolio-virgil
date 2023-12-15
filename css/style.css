@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.background-svg{
+    background: url("../assets/topography.svg") #082E49;
+}
+
+@keyframes slidein {
+    from { transform:translateY(-7px); }
+    to   { transform:translateY(7px);}
+  }
+
+.effet{
+    /* animation: slidein 5s reverse infinite; */
+    animation: 2s linear 0.5s infinite alternate slidein;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
