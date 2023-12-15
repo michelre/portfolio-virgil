@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    background: red !important;
-}
-
 .background-svg{
     background: url("../assets/topography.svg") #082E49;
 }
